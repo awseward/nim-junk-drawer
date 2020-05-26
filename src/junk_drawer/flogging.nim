@@ -1,6 +1,6 @@
 import logging
-import os
-import strutils
+
+export logging except debug, info, notice, warn, error, fatal
 
 ## This module name is short for "flushed logging". It more or less implements
 ## a facade for the stdlib "logging" module, but without buffering for
